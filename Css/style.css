@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ceviche One', cursive;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #B22222;
+    text-align: center;
+    color:  #FF8C00;
+    padding: 10px;
+}
+.title{
+font-size: 26px;
+}
+
+.section{
+    padding: 20px;
+    background-image: url('/images/Garra\ De\ Aguia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: calc(100% - 10px);
+    background-position-y:center ;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color:#FFFFFFBB;
+    padding: 20px;
+    float: right;
+    border-radius: 10px;
+    /*padding-top: 40px;*/
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: #FF8C00;
+    background-color:#B22222 ;
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('/images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    position: relative;
+}
+
+.description{
+    color: white;
+}
+
+.rd{
+    margin-left: 71%;
+    color: #FF8C00;
+}
+
+.im{
+    margin-left: 70%;
+    padding: 5px;  
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: #FF8C00;
+}
+
+.picture{
+    width: 190px;
+    margin-right: 100%;
+}
+
+.title0{
+    text-align: center;
+}
+
+.picture0{
+    margin-left: 64%;
+    width: 250px;
+}
+
+.vdKung{
+    border: 2px solid #B22222;
+    border: auto;
+    width: 600px;
+    height: 380px;
+}
+
+.vdBoxe{
+    border: 2px solid #B22222;
+    border: auto;
+    width: 600px;
+    height: 380px;
+}
+
+.art{
+    color: #FF8C00;
+    position: absolute;
+    top: 5px;
+    margin-top: 25%;
+}
+.txt{
+    position: absolute;
+    top: 5px;
+    margin-top: 30%;
+    transform: translateY(-50%);
+    transform: translateX(-42%);
+    left: 32%;
+}
+
+.bxc{
+    position: absolute;
+    color: #FF8C00;
+    top: 22%;
+    margin-top: 55%;
+}
+
+.txt0{
+    padding: 15px;
+    margin-top: 10%;
+    color: white;
+    text-align: left, justify;
+}
+
+.topo{
+    position: absolute;
+    color: #FF8C00;
+    font-size: 21px;
+    background-color: #B22222;
+    border-radius: 10px;
+    width: 18%;
+    text-align: center;
+    top: 87%;
+}
+
+.rd0{
+    position: absolute;
+    top: 89%;
+    margin-left: 71%;
+    color: #FF8C00;
+}
+
+.im0{
+    position: absolute;
+    margin-left: 70%;
+    padding: 5px;  
+    top: 90%;
+}
+.picture01{
+    margin-left: 69%;
+    width: 250px;
+    margin-bottom: 19%;
+}
